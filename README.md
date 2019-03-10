@@ -49,6 +49,10 @@ npm run lint
 ```
 
 json-server --watch db.json
+#above = no delay
+json-server -d 1500 --watch db.json
+#above = 1.5 second delay
+
 npm install
 yarn serve
 ```
